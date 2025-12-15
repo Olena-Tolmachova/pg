@@ -21,3 +21,12 @@ def test_bin_to_dec():
     assert dec_to_bin(101) == "1100101"
     assert dec_to_bin(127) == "1111111"
     assert dec_to_bin("128") == "10000000"
+
+print("Všechny testy proběhly úspěšně!")
+
+if __name__ == "__main__":
+    test_bin_to_dec()
+
+    decimalni_cislo = 167
+    vysledek = dec_to_bin(decimalni_cislo)
+    print(f"\nDesítkové číslo {decimalni_cislo} je v binární soustavě: {vysledek}")
