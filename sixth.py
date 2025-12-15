@@ -32,7 +32,7 @@ def download_url_and_get_all_hrefs(url):
     return hrefs
 
 
-if 1 == 1: # instead of "main"
+if __name__ == "__main__":
     try:
         if len(sys.argv) < 2:
             print("Pouziti: python sixth.py <https://www.jcu.cz>")
